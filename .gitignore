@@ -1,0 +1,16 @@
+# Local PHP / DB config (never commit credentials)
+public/includes/db.php
+
+# User uploads (admin-added images live here at runtime)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Course materials (kept local, not part of the source)
+*.pdf
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
